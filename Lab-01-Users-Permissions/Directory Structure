@@ -2,3 +2,11 @@ Desktop
 └── IT-LAB
     └── Confidential
         └── test.txt
+
+
+
+Commands
+
+mkdir "%USERPROFILE%\Desktop\IT-LAB\Confidential"
+
+echo This is a confidential test file. > "%USERPROFILE%\Desktop\IT-LAB\Confidential\test.txt"
