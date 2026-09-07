@@ -8,3 +8,9 @@ The account was successfully created and verified.
 Account active: Yes
 Password required: Yes
 Local group membership: Users
+
+
+Verification
+dir "%USERPROFILE%\Desktop\IT-LAB\Confidential"
+
+The test.txt file was successfully created.
