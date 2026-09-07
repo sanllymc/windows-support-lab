@@ -1,4 +1,4 @@
-# Windows Support Lab
+# Windows Support 
 
 Hands-on Windows troubleshooting labs for Junior Systems Engineer preparation.
 
