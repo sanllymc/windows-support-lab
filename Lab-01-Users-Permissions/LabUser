@@ -1,0 +1,15 @@
+Create a Permissions Problem
+
+A deny rule was intentionally added for LabUser to simulate an access problem.
+
+Command
+icacls "%USERPROFILE%\Desktop\IT-LAB\Confidential" /deny LabUser:(OI)(CI)F
+Result
+
+The ACL now contains:
+
+LabUser:(OI)(CI)(N)
+
+N means No Access.
+
+This intentionally creates an access-control problem for the test user.
