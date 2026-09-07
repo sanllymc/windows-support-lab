@@ -1,0 +1,18 @@
+Before modifying the permissions, the existing ACL was inspected using icacls.
+
+Command
+icacls "%USERPROFILE%\Desktop\IT-LAB\Confidential"
+Initial Permissions
+CodexSandboxUsers       (RX)
+SYSTEM                  (F)
+Administrators          (F)
+sanlly mora             (F)
+Permission Reference
+Permission	Meaning
+F	Full Control
+M	Modify
+RX	Read & Execute
+R	Read
+W	Write
+
+The (I) flag indicates that the permission is inherited.
