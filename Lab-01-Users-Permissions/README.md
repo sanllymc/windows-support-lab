@@ -12,48 +12,19 @@ Create a controlled permissions problem, troubleshoot the issue, identify the ro
 
 - Windows 11
 - Local Windows user account
+- Command Prompt
 - PowerShell
 - NTFS permissions
+- `net user`
+- `icacls`
 
-## Tasks
+---
 
-- [ ] Create a test local user
-- [ ] Create a test folder
-- [ ] Create a test file
-- [ ] Configure folder permissions
-- [ ] Reproduce the access problem
-- [ ] Troubleshoot the permissions
-- [ ] Identify the root cause
-- [ ] Fix the permissions
-- [ ] Verify access
-- [ ] Document the resolution
+## Step 1 – Create a Test User
 
-## Troubleshooting Methodology
+A local Windows user named `LabUser` was created for testing.
 
-1. Identify the problem
-2. Gather information
-3. Isolate the cause
-4. Test a hypothesis
-5. Apply the solution
-6. Verify the fix
-7. Document the resolution
+### Command
 
-## Commands
-
-Commands used during this lab will be documented here.
-
-## Root Cause
-
-_To be completed after troubleshooting._
-
-## Solution
-
-_To be completed after troubleshooting._
-
-## Verification
-
-_To be completed after troubleshooting._
-
-## Lessons Learned
-
-_To be completed after troubleshooting._
+```cmd
+net user LabUser * /add
