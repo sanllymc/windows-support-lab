@@ -1,1 +1,10 @@
 net user LabUser
+
+
+Result
+
+The account was successfully created and verified.
+
+Account active: Yes
+Password required: Yes
+Local group membership: Users
